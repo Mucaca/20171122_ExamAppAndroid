@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucas.a20171122_examappandroid.authentificationActivity">
+
+    <RadioGroup
+        android:id="@+id/radioButton_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radioButton_Mme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_Mme" />
+
+        <RadioButton
+            android:id="@+id/radioButton_M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton_M" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText_LastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioButton_Group"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_LastName" />
+
+    <EditText
+        android:id="@+id/editText_FirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_LastName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editText_LastName"
+        android:layout_below="@+id/editText_LastName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_FirstName" />
+
+    <EditText
+        android:id="@+id/editText_Birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_FirstName"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_Birthday" />
+
+    <EditText
+        android:id="@+id/editText_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_Birthday"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/editText_Birthday"
+        android:layout_below="@+id/editText_Birthday"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/editText_Email" />
+
+    <EditText
+        android:id="@+id/editText_AdressePostale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_Email"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_AdressePostale" />
+
+    <EditText
+        android:id="@+id/editText_Commentaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText_AdressePostale"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editText_Commentaire" />
+
+    <Button
+        android:id="@+id/button_Validate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_Commentaire"
+        android:text="@string/button_Validate" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Application Android Examen du 22 Novembre 2017</string>
+    <string name="button_Login">Login</string>
+    <string name="editText_ID">Identifiant</string>
+    <string name="button_Start">Start</string>
+    <string name="radioButton_M">Monsieur</string>
+    <string name="radioButton_Mme">Madame</string>
+    <string name="editText_LastName">Nom</string>
+    <string name="editText_FirstName">Prénom</string>
+    <string name="editText_Birthday">Date de naissance</string>
+    <string name="editText_Email">Email</string>
+    <string name="editText_AdressePostale">Adresse</string>
+    <string name="editText_Commentaire">Vos commentaires</string>
+    <string name="button_Validate">Valider</string>
+    <string name="button_Accueil">Accueil</string>
+    <string name="button_Sports">Sports</string>
+    <string name="button_Sport1">Football</string>
+    <string name="button_Sport2">Basket</string>
+    <string name="button_Sport3">Golf</string>
+    <string name="textView_SportsHeader">Sports</string>
+    <string name="textView_FootballHeader">Football</string>
+    <string name="textView_GolfHeader">Golf</string>
+    <string name="textView_BasketHeader">Basket</string>
+    <string name="textView_DefinitionFootball">Le football /futbol/, ou soccer /sɔkœʁ/, est un sport collectif qui se joue principalement au pied avec un ballon sphérique. Il oppose deux équipes de onze joueurs dans un stade, que ce soit sur un terrain gazonné ou sur un plancher. </string>
+    <string name="textView_DefinitionBasket">Le basket-ball ou basketball, fréquemment désigné en français par son abréviation basket, est un sport collectif opposant deux équipes de cinq joueurs sur un terrain rectangulaire.</string>
+    <string name="textView_DefinitionGolf">Le golf est un sport de précision se jouant en plein air, qui consiste à envoyer une balle dans un trou à l'aide de clubs. Le but du jeu consiste à effectuer, sur un parcours défini, le moins de coups possible.</string>
+    <string name="textView_UsersData"><font fgcolor="red">User Name</font></string>
+    <string name="button_back">Sports</string>
+
+</resources>
