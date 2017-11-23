@@ -43,23 +43,6 @@
         android:textAlignment="center"
         android:text="@string/textView_UsersData"/>
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_alignStart="@+id/imageView5"
-        android:layout_below="@+id/textView_DescriptionGolf"
-        app:srcCompat="@mipmap/ic_launcher_round" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView4"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@mipmap/ic_launcher_round" />
-
     <Button
         android:id="@+id/button_back"
         android:layout_width="match_parent"
@@ -67,4 +50,24 @@
         android:layout_above="@+id/button_Accueil"
         android:layout_centerHorizontal="true"
         android:text="@string/button_back" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/golf1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_DescriptionGolf"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/golf2" />
 </RelativeLayout>
